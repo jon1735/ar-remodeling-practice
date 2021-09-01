@@ -16,6 +16,8 @@ puts "Creating projects..."
 # * and a project belongs to an owner.                            *
 # ***************************************************************
 # Create projects Here
-
+Project.create(price: 1, owner_id: 1, house_id: 1)
+Project.create(price: 200, owner_id: 2, house_id: 2)
+Project.create(price: 500, owner_id: 3, house_id: 3)
 
 puts "Seeding done!"
